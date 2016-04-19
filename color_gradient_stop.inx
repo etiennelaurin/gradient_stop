@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<inkscape-extension xmlns="http://www.inkscape.org/namespace/inkscape/extension">
+	<_name>Gradient Stop</_name>
+	<id>org.inkscape.color.color_gradient_stop</id>
+	<dependency type="executable" location="extensions">inkex.py</dependency>
+	<param name="stop" type="float" _gui-text="Gradient stop:" min="0.0" max="100.0">38.2</param>
+	<effect>
+		<object-type>all</object-type>
+		<effects-menu>
+			<submenu _name="Color"/>
+		</effects-menu>
+	</effect>
+	<script>
+		<command reldir="extensions" interpreter="python">color_gradient_stop.py</command>
+	</script>
+</inkscape-extension>
