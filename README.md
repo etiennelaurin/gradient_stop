@@ -1,2 +1,2 @@
-# gradient_stop
+# Gradient Stop
 Gradient stop plug-in for Inkscape
